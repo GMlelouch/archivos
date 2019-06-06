@@ -120,7 +120,7 @@
           //run upload.php script and append result to draggable block
           $.ajax({
              type: 'POST',
-            url: "modelo/insertar_acta_archivo.php",
+            url: "modelo/insertar_archivo.php",
             cache: false,
             contentType: false,
             processData: false,
